@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Employee Management System</h1>
+    </header>
+    <section class="employee-form">
+
+        <h2>Add New Employee</h2>
+
+        <form id="employeeForm">
+
+            <div class="form-group">
+                <label for="name">Employee Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter employee name"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="employeeId">Employee ID</label>
+                <input
+                    type="text"
+                    id="employeeId"
+                    placeholder="Enter employee ID"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="department">Department</label>
+
+                <select id="department">
+                    <option value="">Select Department</option>
+                    <option value="IT">IT</option>
+                    <option value="HR">HR</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="salary">Salary</label>
+
+                <input
+                    type="number"
+                    id="salary"
+                    placeholder="Enter salary"
+                >
+            </div>
+
+            <button  type="submit" class="add-btn">
+                Add Employee
+            </button>
+
+        </form>
+
+    </section>
+
+    <section class="employee-list">
+
+        <h2>Employees List</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody id="employeeTable"> 
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                    
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+
+    <script src="mini_project.js"></script>
+
+</body>
+</html>
