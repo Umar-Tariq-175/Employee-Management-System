@@ -23,5 +23,5 @@ Employee-Management-System/
 │
 ├── index.html
 ├── style.css
-├── script.js
+├── mini_project.js
 └── README.md
